@@ -1,0 +1,83 @@
+@for $i from 1 through 10 {
+  .mx-#{$i} {
+    margin-left: #{$i * 10}px;
+    margin-right: #{$i * 10}px;
+  }
+  .my-#{$i} {
+    margin-top: #{$i * 10}px;
+    margin-bottom: #{$i * 10}px;
+  }
+
+  .mt-#{$i} {
+    margin-top: #{$i * 10}px;
+  }
+  .mb-#{$i} {
+    margin-bottom: #{$i * 10}px;
+  }
+  .ml-#{$i} {
+    margin-left: #{$i * 10}px;
+  }
+  .mr-#{$i} {
+    margin-right: #{$i * 10}px;
+  }
+
+  .pt-#{$i} {
+    padding-top: #{$i * 10}px;
+  }
+  .pb-#{$i} {
+    padding-bottom: #{$i * 10}px;
+  }
+  .pl-#{$i} {
+    padding-left: #{$i * 10}px;
+  }
+  .pr-#{$i} {
+    padding-right: #{$i * 10}px;
+  }
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 0 0 rgba(#000000, 0.3);
+  padding: 10px;
+}
+
+.text-base {
+  font-size: 16px;
+}
+
+.text-sm {
+  font-size: 14px;
+}
+
+.text-xs {
+  font-size: 12px;
+}
+
+.text-xl {
+  font-size: 18px;
+}
+
+.text-lg {
+  font-size: 22px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.text-green {
+  color: #2ecc71;
+}
+
+.text-red {
+  color: red;
+}
